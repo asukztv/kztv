@@ -1,0 +1,19 @@
+/* device table */
+
+#device-table .info[name="identification_code"]:before{
+    content: '(';
+}
+
+#device-table .info[name="identification_code"]:after{
+    content: ')';
+}
+
+#device-table .main-info{
+    min-height: 53px;
+}
+
+/* additional info */
+
+.additional-info .table{
+    background-color: rgba(255, 255, 255, 0.075);
+}
